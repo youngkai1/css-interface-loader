@@ -1,0 +1,28 @@
+{
+  "name": "css-to-interface",
+  "version": "1.0.0",
+  "description": "css/scss/sass/less 等样式文件自动生成ts类型文件",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/youngkai1/css-interface-loader.git"
+  },
+  "keywords": [
+    "css",
+    "scss",
+    "less",
+    "sass",
+    "typescript",
+    "ts",
+    "interface"
+  ],
+  "author": "yangkai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/youngkai1/css-interface-loader/issues"
+  },
+  "homepage": "https://github.com/youngkai1/css-interface-loader#readme"
+}
