@@ -1,6 +1,6 @@
 {
-  "name": "css-to-interface",
-  "version": "1.0.0",
+  "name": "css-interface-loader",
+  "version": "1.0.2",
   "description": "css/scss/sass/less 等样式文件自动生成ts类型文件",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,10 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/youngkai1/css-interface-loader.git"
+  },
+  "dependencies": {
+    "line-diff": "^2.0.1",
+    "loader-utils": "^1.2.3"
   },
   "keywords": [
     "css",
