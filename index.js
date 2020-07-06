@@ -1,7 +1,7 @@
 /*
  * @Author: yangkai
  * @Date: 2020-07-03 14:57:35
- * @LastEditTime: 2020-07-06 10:02:29
+ * @LastEditTime: 2020-07-06 10:06:42
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  */ 
@@ -38,7 +38,7 @@ const getTypeMismatchError = ({ filename, expected, actual }) => {
 
 const cssModuleToInterface = (cssModuleKeys) => {
     let isHave = {}
-    cssModuleKeys.filter(key =>{
+    cssModuleKeys = cssModuleKeys.filter(key =>{
         if(isHave[key])return false
         else{
             isHave[key] = true
